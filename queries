@@ -1,0 +1,3 @@
+⚙️ Queries
+MATCH (p:Pessoa)-[r:ASSISTIU]->(f:Filme)
+RETURN p, r, f
